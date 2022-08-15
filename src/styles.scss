@@ -1,0 +1,36 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.flexBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.App{
+    @extend .flexBox;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+}  
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
