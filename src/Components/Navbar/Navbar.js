@@ -8,19 +8,19 @@ function Navbar({ open }) {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/">our program</a>
+        <Link to="/our-program">our program</Link>
       </li>
       <li>
-        <a href="/">courses</a>
+        <a href="#courses">courses</a>
       </li>
       <li>
-        <a href="/">our value position</a>
+        <a href="#position">our value position</a>
       </li>
       <li>
-        <a href="/">about us</a>
+        <a href="#about-us">about us</a>
       </li>
       <li>
-        <a href="/">ambassadors</a>
+        <a href="#ambassadors">ambassadors</a>
       </li>
 <div className="media-btn">
       <li>

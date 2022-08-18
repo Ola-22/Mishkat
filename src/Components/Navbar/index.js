@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
+import RightNav from "./RightNav";
 // import "./style.css";
 import * as S from "./style"
 
@@ -12,13 +13,7 @@ function Navbar() {
         <Menu />
       </div>
 
-      <S.RightNav>
-          <Link to="/login" className="login-btn">login</Link>
-          <Link to="/register" className="register-btn">register now</Link>
-          <select>
-              <option>En</option>
-          </select>
-      </S.RightNav>
+     <RightNav />
     </S.NavMain>
   );
 }
