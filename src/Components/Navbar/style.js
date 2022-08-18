@@ -10,6 +10,10 @@ export const NavMain = styled.div`
         align-items: center;
         & img{
             margin-inline-end: 4px;
+            
+    @media (max-width: 650px) {
+      width: 65px;
+    }
         }
 
         & ul{
@@ -17,19 +21,17 @@ export const NavMain = styled.div`
            align-items: center;
             & li{
                 margin-inline-start: 25px;
+                @media (min-width: 980px) and (max-width: 1200px) {
+                    margin-inline-start: 15px;
+        }
             }
         }
-    }
-
-    &  a, select{
-        color: #3D4354;
-        font-size: 12px;
-        text-transform: capitalize;
 
         @media (max-width: 980px) {
-            color: #ffffff;
-        }
-        } 
+      justify-content: space-between;
+      width: 100%;
+    }
+    }
 
 `
 
@@ -65,6 +67,16 @@ export const RightNav = styled.div`
             display: none;
         }
         }
+
+        &  a, select{
+        color: #3D4354;
+        font-size: 12px;
+        text-transform: capitalize;
+
+        @media (max-width: 980px) {
+            color: #ffffff;
+        }
+        } 
 `
 
 
@@ -100,4 +112,21 @@ export const Ul = styled.ul`
         flex-direction: column;
     }
   }
+
+
+  
+  &  a, select{
+        color: #3D4354;
+        font-size: 12px;
+        text-transform: capitalize;
+
+        @media (max-width: 980px) {
+            color: #ffffff;
+        }
+
+        @media (min-width: 980px) and (max-width: 1000px) {
+            font-size: 10px;
+        }
+        } 
+        
 `;

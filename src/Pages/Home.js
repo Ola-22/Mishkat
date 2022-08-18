@@ -1,18 +1,36 @@
-import React from 'react'
-import Banner from '../Components/Banner'
-import MissionVision from '../Components/Mission&Vision'
-import Navbar from '../Components/Navbar'
-import Tags from '../Components/Tags'
+import React from "react";
+import AboutUs from "../Components/AboutUs";
+import Ambassadors from "../Components/Ambassadors";
+import Banner from "../Components/Banner";
+import ContactUs from "../Components/ContactUs";
+import Courses from "../Components/Courses";
+import Footer from "../Components/Footer";
+import MissionVision from "../Components/Mission&Vision";
+import Navbar from "../Components/Navbar";
+import Position from "../Components/Position";
+import Tags from "../Components/Tags";
 
-function Home() {
+function Home({ allCategories, filter, menuItem, dataSlide, setMenuItem }) {
   return (
-    <div className='home-container'>
-        <Navbar />
-        <Banner />
-        <Tags />
-        <MissionVision />
+    <div className="home-container">
+      <Navbar />
+      <Banner />
+      <Tags />
+      <MissionVision />
+      <Courses
+        setMenuItem={setMenuItem}
+        allCategories={allCategories}
+        dataSlide={dataSlide}
+        filter={filter}
+        menuItem={menuItem}
+      />
+      <AboutUs />
+      <Position />
+      <Ambassadors />
+      <ContactUs />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

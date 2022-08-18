@@ -77,6 +77,11 @@ export const PaymentContainer = styled.div`
     font-weight: normal;  
     margin-top: 212.5px;
     text-align: center;
+
+    @media (max-width: 700px) {
+            margin-top: 20px;
+
+        }
 }
 
 & div{

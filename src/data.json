@@ -1,0 +1,86 @@
+{
+  "Courses": [
+    {
+      "title": "Course title",
+      "img": "./assets/images/courses1.png",
+      "CountLesson": "44 Lesson",
+      "date": "30 min",
+      "price": "15$",
+      "category": "All"
+    },
+    {
+      "title": "Course title2",
+      "img": "./assets/images/courses2.png",
+      "CountLesson": "24 Lesson",
+      "date": "25 min",
+      "price": "15$",
+      "category": "Visual Programming"
+    },
+    {
+      "title": "Course title3",
+      "img": "./assets/images/courses3.png",
+      "CountLesson": "44 Lesson",
+      "date": "30 min",
+      "price": "15$",
+      "category": "All"
+    },
+    {
+      "title": "Course title4",
+      "img": "./assets/images/courses4.png",
+      "CountLesson": "44 Lesson",
+      "date": "30 min",
+      "price": "15$",
+      "category": "Visual Programming"
+    },
+    {
+      "title": "Course title5",
+      "img": "./assets/images/courses5.png",
+      "CountLesson": "44 Lesson",
+      "date": "30 min",
+      "price": "15$",
+      "category": "Digital Iteracy"
+    },
+    {
+      "title": "Course title6",
+      "img": "./assets/images/courses6.png",
+      "CountLesson": "44 Lesson",
+      "date": "30 min",
+      "price": "15$",
+      "category": "The Coding Knight"
+    }
+  ],
+  "Questions": [
+    {
+      "id": 1,
+      "question": "Who is this course appropriate for?",
+      "answer": "Who is this course appropriate for"
+    },
+
+    {
+      "id": 2,
+      "question": "Who developed the invention course?",
+      "answer": "Who is this course appropriate for"
+    },
+    {
+      "id": 3,
+      "question": "What will my kid need for their classes?",
+      "answer": "Who is this course appropriate for"
+    },
+    {
+      "id": 4,
+      "question": "Where can I take a look at your lesson timetable?",
+      "answer": "Who is this course appropriate for"
+    }
+    ,
+    {
+      "id": 5,
+      "question": "What should I do if my child misses a class?",
+      "answer": "Who is this course appropriate for"
+    },
+    {
+      "id": 6,
+      "question": "Will my child receive a certificate when they complete their course?",
+      "answer": "Who is this course appropriate for"
+    }
+  ]
+}
