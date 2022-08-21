@@ -6,10 +6,9 @@ function Login() {
   return (
     <S.LoginFooter>
       <S.HeaderLogin>
-          <Link to="/">
-                      <img src="./assets/images/logo.png" alt="logo" />
-
-          </Link>
+        <Link to="/">
+          <img src="./assets/images/logo.png" alt="logo" />
+        </Link>
         <select>
           <option>en</option>
         </select>
@@ -20,10 +19,12 @@ function Login() {
           You can contact us at any time from the contact form below or call us
           on the unified number (from Sunday to Thursday from 9 am to 5 pm)
         </p>
-        <input placeholder="name" />
-        <input placeholder="password" />
+        <input placeholder="name" defaultValue="ola" />
+        <input placeholder="password" defaultValue="**" />
         <button>register now</button>
-        <Link className="forget-pass" to="/forget-password">forget password ?</Link>
+        <Link className="forget-pass" to="/forget-password">
+          forget password ?
+        </Link>
       </S.LoginBox>
     </S.LoginFooter>
   );

@@ -71,6 +71,12 @@ export const BannerContent = styled.div`
     color: #ffffff;
     text-transform: capitalize;
     margin-inline-end: 40.3px;
+
+    @media (max-width: 760px) {
+      width: 100px;
+      height: 38px;
+      font-size: 12px;
+    }
   }
 `;
 
@@ -94,10 +100,20 @@ export const PlayContainer = styled.div`
         background-color: #fff;
         box-shadow: 0 15px 30px rgba(0, 145, 255, 0.16);
         border-radius: 50%;
+
+        @media (max-width: 760px) {
+          width: 16px;
+          width: 40px;
+          height: 40px;
+        }
       }
       & img {
         z-index: 2;
         position: relative;
+
+        @media (max-width: 760px) {
+          width: 16px;
+        }
       }
     }
     & h6 {

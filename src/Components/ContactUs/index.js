@@ -1,7 +1,10 @@
-import React from "react";
+import {useState} from "react";
 import * as S from "./style"
 
 function ContactUs() {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+
   return (
     <S.ContactContainer>
       <div className="title-container">
@@ -15,8 +18,8 @@ function ContactUs() {
       </div>
       <S.InputContainer>
         <div className="inputs">
-          <input placeholder="name" value="" />
-          <input placeholder="email" value="" />
+          <input placeholder="name" value={name || ""} onChange={(e) => setName(e.target.value)} />
+          <input placeholder="email" value={email || ""} onChange={(e) => setEmail(e.target.value)} />
         </div>
         <textarea
         className="textarea"

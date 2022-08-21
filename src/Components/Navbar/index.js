@@ -1,7 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
 import RightNav from "./RightNav";
-// import "./style.css";
 import * as S from "./style"
 
 function Navbar() {
