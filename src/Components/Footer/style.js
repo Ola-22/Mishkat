@@ -31,6 +31,13 @@ export const FooterContainer = styled.div`
     background: #f5f5f5;
     margin-top: 20px;
   }
+
+  & img{
+    max-width: 100%;
+    @media (max-width: 700px) {
+      width: 100px;
+    }
+  }
 `;
 
 export const inputContainer = styled.div`
@@ -53,6 +60,10 @@ export const inputContainer = styled.div`
     background: inherit;
     padding-inline-start: 23px;
     text-transform: capitalize;
+
+    @media (max-width: 700px) {
+      height: 33px;
+    }
   }
 
   & button {
@@ -65,6 +76,9 @@ export const inputContainer = styled.div`
     font-size: 14px;
     color: #ffffff;
     text-transform: capitalize;
+    @media (max-width: 700px) {
+      height: 33px;
+    }
   }
 
   @media (max-width: 700px) {
@@ -72,6 +86,7 @@ export const inputContainer = styled.div`
     width: 80%;
     max-width: 80%;
     margin-bottom: 15px;
+    height: 40px;
   }
 `;
 

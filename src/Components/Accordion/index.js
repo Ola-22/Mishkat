@@ -8,8 +8,6 @@ function Accordion({ homeData, language }) {
   const [show, setShow] = useState(-1);
   const [dataQuestion, setDataQuestions] = useState()
 
-  console.log(data.Questions)
-
   useEffect(() => {
     setDataQuestions(data.Questions)
   }, [])

@@ -142,6 +142,10 @@ export const PrevArrow = styled.div`
   position: absolute;
   right: 0px;
   top: -90px;
+
+  @media (max-width: 900px) {
+  display: none;
+  }
 `;
 
 export const NextArrow = styled.div`
@@ -152,4 +156,8 @@ export const NextArrow = styled.div`
   position: absolute;
   right: 0px;
   top: -90px;
+
+  @media (max-width: 900px) {
+  display: none;
+  }
 `;

@@ -70,8 +70,7 @@
       "id": 4,
       "question": "Where can I take a look at your lesson timetable?",
       "answer": "Who is this course appropriate for"
-    }
-    ,
+    },
     {
       "id": 5,
       "question": "What should I do if my child misses a class?",
@@ -81,6 +80,23 @@
       "id": 6,
       "question": "Will my child receive a certificate when they complete their course?",
       "answer": "Who is this course appropriate for"
+    }
+  ],
+  "programs": [
+    {
+      "content": "Develop a culture of innovation in education"
+    },
+    {
+      "content": "Bring real-world experiences to a curriculum that is hands-on"
+    },
+    {
+      "content": "Create optimum learning environments"
+    },
+    {
+      "content": "Create interactive teaching moments with available teacher resources"
+    },
+    {
+      "content": "Introduce students to a variety of professional careers"
     }
   ]
 }

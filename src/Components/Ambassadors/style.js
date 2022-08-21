@@ -86,7 +86,8 @@ export const Card = styled.div`
     line-height: 1.4;
     @media (max-width: 700px) {
           font-size: 14px;
-          max-width: 80%;
+          max-width: 67%;
+    width: 75%;
         }
   }
 `;

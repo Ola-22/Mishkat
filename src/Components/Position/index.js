@@ -26,7 +26,7 @@ function SampleNextArrow(props) {
 
 function Position() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
@@ -72,8 +72,8 @@ function Position() {
         <div style={{width: "85%"}}>
                  <Slider {...settings}>
           <CardPosition content="STEM/STEAM education" src='./assets/images/position1.png' />
-          <CardPosition content="STEM/STEAM education" src='./assets/images/position1.png' />
-          <CardPosition content="STEM/STEAM education" src='./assets/images/position1.png' />
+          <CardPosition content="STEM/STEAM education" src='./assets/images/position2.png' />
+          <CardPosition content="STEM/STEAM education" src='./assets/images/position3.png' />
           <CardPosition content="STEM/STEAM education" src='./assets/images/position1.png' />
           <CardPosition content="STEM/STEAM education" src='./assets/images/position1.png' />
          

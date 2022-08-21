@@ -25,6 +25,12 @@ export const AboutContainer = styled.div`
     @media (max-width: 700px) {
       display: none;
     }
+
+    @media (max-width: 1200px) {
+      width: 100px;
+      right: -84px;
+      top: 66%;
+    }
   }
 `;
 

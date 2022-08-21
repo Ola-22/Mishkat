@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const ProgramContainer = styled.div`
   width: 100%;
   display: flex;
@@ -78,7 +79,6 @@ export const HeaderProgram = styled.div`
 
   & img {
     max-width: 100%;
- 
 
     @media (max-width: 650px) {
       width: 65px;
@@ -180,21 +180,24 @@ export const LearnContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* margin-left: 22%; */
     & li {
       display: flex;
       align-items: center;
       position: relative;
       &::before {
-        /* content: url("./assets/images/Rectangle.png"); */
         clip-path: polygon(50% 0, 100% 50%, 52% 100%, 29% 80%, 0 53%, 25% 26%);
         width: 111px;
         min-width: 111px;
         height: 111px;
         background: #694bed;
-        content: "1";
+        content: attr(data-content);
         position: relative;
         z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 30px;
 
         @media (max-width: 450px) {
           width: 80px;
