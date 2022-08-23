@@ -4,7 +4,6 @@ import * as S from "./style";
 function Banner() {
   return (
     <S.BannerContainer>
-        {/* <img src='./assets/images/background.png' className='back' alt='' /> */}
         <div className='main'>
                    <S.BannerContent>
             <h2>study from home with experts</h2>

@@ -5,6 +5,7 @@ import data from "./data.json";
 import Category from "./Category.json";
 import Login from "./Pages/Login";
 import Program from "./Pages/Program";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   const [dataSlide, setDataSlide] = useState();
@@ -35,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+      <ScrollToTop />
       <BrowserRouter>
         <Routes>
           <Route

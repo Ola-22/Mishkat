@@ -36,7 +36,7 @@ flex-direction: column;
 export const TagsMain = styled.div`
     display: flex;
     align-items: center;
-    margin-top: 178.4px;
+    margin-top: 30px;
     background: url("./assets/images/tags-background.png") no-repeat;
     width: 95%;
     justify-content: space-evenly;
@@ -46,6 +46,7 @@ export const TagsMain = styled.div`
 
     @media (max-width: 700px) {
         background-size: contain; 
+        padding-top: 0;
     }
 
     & .container{

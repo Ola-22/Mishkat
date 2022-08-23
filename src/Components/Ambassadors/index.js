@@ -19,7 +19,6 @@ function Ambassadors() {
           job="The Problem Solver"
           name="Mohannad AlSaif "
           content="Mohannad is a highly experienced mechanical engineer, project manager and Riyadh native who has a passion for solving all sorts of problems. One of his most important tools is his own creativity."
-        srcBack="'./assets/images/ambassadors1.png'"
         />
 
         <CardAmbassadors
@@ -27,7 +26,6 @@ function Ambassadors() {
           job="The Creative Thinker "
           name="Brent Corley"
           content="Brent is a talented project management and financial professional with a drive to create educational environments that stimulate innovation. His passion for teaching helps drive success and inspire students to do great things. "
-       srcBack="./assets/images/ambassadors2.png"
        />
       </S.ContainerCard>
     </S.Main>

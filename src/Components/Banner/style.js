@@ -2,9 +2,13 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
   display: flex;
-  /* background-image: url("./assets/images/background.png"); */
-  justify-content: space-between;
-  width: 85%;
+  background: url("./assets/images/background-study.png") no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-top: 10%;
+  /* height: 900px; */
 
   @font-face {
     font-family: "Montserrat-extra";
@@ -19,11 +23,16 @@ export const BannerContainer = styled.div`
     margin-bottom: 43.7px;
     margin-top: 122px;
     font-family: Montserrat-extra;
+    margin-top: -70px;
 
     @media (max-width: 700px) {
       margin-top: 20px;
       font-size: 25px;
       margin-bottom: 20px;
+    }
+
+    @media (min-width: 700px) and (max-width: 950px) {
+      margin-top: 28%;
     }
   }
 
@@ -47,11 +56,24 @@ export const BannerContainer = styled.div`
   & .main {
     display: flex;
     align-items: center;
-    /* width: 85%; */
+    width: 85%;
+    margin-bottom: 4%;
     @media (max-width: 950px) {
       flex-wrap: wrap;
-      width: 100%;
     }
+  }
+
+  @media (max-width: 650px) {
+    height: 750px;
+    background-size: cover;
+  }
+
+  @media (min-width: 650px) and (max-width: 1000px) {
+    height: 1000px;
+  }
+
+  @media (min-width: 550px) and (max-width: 650px) {
+    height: 1000px;
   }
 `;
 
@@ -71,11 +93,18 @@ export const BannerContent = styled.div`
     color: #ffffff;
     text-transform: capitalize;
     margin-inline-end: 40.3px;
-
+    transition: 1s all ease-out;
     @media (max-width: 760px) {
       width: 100px;
       height: 38px;
       font-size: 12px;
+    }
+
+    &:hover{
+      border: 1px solid #14c7ff;
+      color: #14c7ff;
+      background: #ffffff;
+      cursor: pointer;
     }
   }
 `;
