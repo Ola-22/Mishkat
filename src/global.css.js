@@ -26,7 +26,7 @@ a{
     width: 100%;
     flex-direction:column;
     align-items: center;
-    padding-top: 25px;
+   
 }
 
 .App{
@@ -59,5 +59,25 @@ display: block;
 }
 .inActive{
 display: none;
+}
+
+.scroll-top{
+    width: 45px;
+    height: 45px;
+    background: linear-gradient(to bottom, #FA6400, #FFA214);
+    position: fixed;
+    bottom: 97.6px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 46px;
+    box-shadow: 0 6px 15px rgba(250, 100, 0, .5);
+    z-index: 42;
+    cursor: pointer;
+
+    & svg{
+        fill: #fff;
+    }
 }
 `

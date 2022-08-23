@@ -34,7 +34,7 @@ export const CoursesContainer = styled.div`
 
       @media (max-width: 700px) {
         min-width: auto;
-        max-width: 107px;
+        max-width: 130px;
         font-size: 12px;
         height: 30px;
         

@@ -34,9 +34,6 @@ export const FooterContainer = styled.div`
 
   & img{
     max-width: 100%;
-    @media (max-width: 700px) {
-      width: 100px;
-    }
   }
 `;
 

@@ -1,11 +1,10 @@
 import React from 'react'
 import * as S from "./style"
 
-function CardAmbassadors({name, job, content, src, srcBack}) {
+function CardAmbassadors({name, job, content, src}) {
   return (
     <S.Card>
         <div className='img-container'>
-        {/* <img className='background' src={srcBack} alt='ambassadors' /> */}
         <img src={src} alt='ambassadors' />  
         </div>
 
