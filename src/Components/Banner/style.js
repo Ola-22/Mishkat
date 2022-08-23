@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
   display: flex;
   background: url("./assets/images/background-study.png") no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 125%;
   justify-content: center;
   width: 100%;
   align-items: center;
@@ -23,7 +23,7 @@ export const BannerContainer = styled.div`
     margin-bottom: 43.7px;
     margin-top: 122px;
     font-family: Montserrat-extra;
-    margin-top: -70px;
+    margin-top: -4px;
 
     @media (max-width: 700px) {
       margin-top: 20px;
