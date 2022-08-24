@@ -3,18 +3,18 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
   display: flex;
   background: url("./assets/images/background-study.png") no-repeat;
-  background-size: 100% 125%;
+  background-size: cover;
   justify-content: center;
   width: 100%;
   align-items: center;
   padding-top: 10%;
-  /* height: 900px; */
 
   @font-face {
     font-family: "Montserrat-extra";
-    src: local("Montserrat-extra"), url("./") format("truetype");
+    src: local("Montserrat-extra"), url("./assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
     font-display: fallback;
   }
+  
   & h2 {
     font-size: 47px;
     color: #3d4354;

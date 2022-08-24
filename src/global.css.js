@@ -4,7 +4,7 @@ export default createGlobalStyle`
  @font-face {
 font-family: "Montserrat";
 src: local("Montserrat"),
-    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+    url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
     font-display: fallback;
    }
 
@@ -80,4 +80,4 @@ display: none;
         fill: #fff;
     }
 }
-`
+`;
