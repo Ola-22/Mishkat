@@ -21,6 +21,10 @@ export const CardContainer = styled.div`
   @media (max-width: 600px) {
     width: 100%;
   }
+
+  & p{
+    margin-top: 44px;
+  }
 `;
 
 export const PositionContainer = styled.div`

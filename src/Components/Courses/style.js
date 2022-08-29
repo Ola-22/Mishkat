@@ -152,7 +152,7 @@ export const ItemContainer = styled.div`
 `;
 
 export const Btn = styled.button`
-  background: rgba(254, 150, 16, 0.2);
+  background: rgba(254, 150, 16, 0.08);
   max-width: 208px;
   width: 100%;
   height: 59px;

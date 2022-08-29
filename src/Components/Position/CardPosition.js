@@ -4,8 +4,11 @@ import * as S from "./style"
 function CardPosition({content, src}) {
   return (
     <S.CardContainer>
-        <img src={src} alt='position' />
+      <div>
+           <img src={src} alt='position' />
         <p>{content}</p>
+      </div>
+     
     </S.CardContainer>
   )
 }

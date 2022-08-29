@@ -37,10 +37,10 @@ export const TagsMain = styled.div`
     display: flex;
     align-items: center;
     margin-top: 30px;
-    background: url("./assets/images/tags-background.png") no-repeat;
-    width: 95%;
+    background: url("./assets/images/tags.svg") no-repeat;
+    width: 100%;
     justify-content: space-evenly;
-    background-size: 100% 90%;
+    background-size: contain;
     padding-top: 70px;
     flex-direction: column;
 
@@ -52,7 +52,7 @@ export const TagsMain = styled.div`
     & .container{
         display: flex;
     justify-content: space-between;
-    width: 88%;
+    width: 93%;
     @media (max-width: 700px) {
             flex-wrap: wrap;  
             width:auto ;
@@ -71,12 +71,15 @@ export const TagsMain = styled.div`
 `
 
 export const PaymentContainer = styled.div`
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93%;
 & h6{
       color: #3D4354;
     font-size: 16px;
     font-weight: normal;  
-    margin-top: 212.5px;
+    margin-top: 214.5px;
     text-align: center;
 
     @media (max-width: 700px) {
@@ -89,9 +92,12 @@ export const PaymentContainer = styled.div`
     display: flex;
     align-items: center;
     margin-top: 50.5px;
+    width: 82%;
+    justify-content: space-between;
+    gap: 10px;
     & img{
         &:not(:first-of-type){
-           margin-inline-start: 56.4px; 
+           /* margin-inline-start: 56.4px;  */
 
            @media (max-width: 700px) {
             margin-inline-start: 20px; 
@@ -106,4 +112,10 @@ export const PaymentContainer = styled.div`
     }
 }
 
+`
+export const Container = styled.div`
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 `
