@@ -44,6 +44,10 @@ export const NavMain = styled.div`
     &:hover{
         color: #fe9610;
     }
+
+    @media (min-width: 980px) and (max-width: 1100px) {
+      font-size: 10px !important;
+    }
   }
 
   & .top-container{
@@ -104,6 +108,9 @@ export const RightNav = styled.div`
       color: #ffffff;
     }
 
+    @media (min-width: 980px) and (max-width: 1100px) {
+      font-size: 10px;
+    }
     &:hover{
         color: #fe9610;
     }

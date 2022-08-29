@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const BannerContainer = styled.div`
   display: flex;
-  background: url("./assets/images/background-study.png") no-repeat;
-  background-size: cover;
+  background: url(./assets/images/Artboard.svg) no-repeat;
+    background-size: 100% 105%;
   justify-content: center;
   width: 100%;
   align-items: center;
   padding-top: 10%;
-
+  padding-bottom: 9%;
   @font-face {
     font-family: "Montserrat-extra";
     src: local("Montserrat-extra"), url("./assets/fonts/Montserrat-ExtraBold.ttf") format("truetype");
@@ -42,6 +42,7 @@ export const BannerContainer = styled.div`
     max-width: 397px;
     width: 100%;
     margin-bottom: 45px;
+    font-weight: 500;
     @media (max-width: 700px) {
       font-size: 16px;
     }
@@ -75,6 +76,11 @@ export const BannerContainer = styled.div`
   @media (min-width: 550px) and (max-width: 650px) {
     height: 1000px;
   }
+
+  
+  @media (min-width: 1000px) and (max-width: 1200px) {
+      padding-top: 14%;
+    }
 `;
 
 export const BannerContent = styled.div`
