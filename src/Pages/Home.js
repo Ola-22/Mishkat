@@ -10,7 +10,7 @@ import Navbar from "../Components/Navbar";
 import Position from "../Components/Position";
 import Tags from "../Components/Tags";
 
-function Home({ allCategories, filter, menuItem, dataSlide, setMenuItem }) {
+function Home({ allCategories, filter, menuItem, dataSlide, setMenuItem, active, setActive }) {
   return (
     <div className="home-container">
       <Navbar />
@@ -23,6 +23,8 @@ function Home({ allCategories, filter, menuItem, dataSlide, setMenuItem }) {
         dataSlide={dataSlide}
         filter={filter}
         menuItem={menuItem}
+        active={active}
+        setActive={setActive}
       />
       <AboutUs />
       <Position />

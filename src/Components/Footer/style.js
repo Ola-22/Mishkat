@@ -14,7 +14,7 @@ export const FooterContainer = styled.div`
     font-size: 12px;
     color: #3d4354;
     padding-bottom: 63.5px;
-    font-weight: normal;
+    font-weight: 500;
     @media (max-width: 700px) {
     font-size: 10px;
     padding-bottom: 45px;
@@ -73,6 +73,7 @@ export const inputContainer = styled.div`
     font-size: 14px;
     color: #ffffff;
     text-transform: capitalize;
+    margin-inline-end: 3px;
     @media (max-width: 700px) {
       height: 33px;
     }

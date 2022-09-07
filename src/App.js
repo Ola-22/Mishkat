@@ -11,23 +11,24 @@ function App() {
   const [dataSlide, setDataSlide] = useState();
   const [menuItem, setMenuItem] = useState(dataSlide);
   const [Categories, setCategories] = useState();
+  const [active, setActive] = useState(0);
 
   useEffect(() => {
     setDataSlide(data.Courses);
     setCategories(Category.Category);
   }, []);
 
-  const filter = (button) => {
+
+  const filter = (button, index) => {
     
     const filterdData = dataSlide?.filter((item) => item.category === button);
-
+    
     setMenuItem(filterdData);
 
-    if (button === "All") {
+    if (button === "All" || index === 0) {
       setMenuItem(data.Courses);
       return;
     }
-
   };
 
 
@@ -48,6 +49,8 @@ function App() {
                 setMenuItem={setMenuItem}
                 allCategories={allCategories}
                 dataSlide={dataSlide}
+                active={active}
+                setActive={setActive}
               />
             }
           />

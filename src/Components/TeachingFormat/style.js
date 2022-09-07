@@ -13,6 +13,7 @@ export const TeachingContainer = styled.div`
     text-transform: capitalize;
     margin-bottom: 89px;
     align-self: flex-start;
+    font-weight: 800;
     & span {
       color: #ff6765;
     }
@@ -26,6 +27,7 @@ export const TeachingContainer = styled.div`
     font-size: 50px;
     color: #3d4354;
     text-transform: capitalize;
+    margin-bottom: 12px;
   }
 
   @media (max-width: 800px) {
@@ -69,13 +71,15 @@ export const Box = styled.div`
 
     &:after {
       content: "";
-      position: absolute;
-      height: 0;
-      border: 20px solid transparent;
-      border-left-color: #fee665;
-      border-right: 0;
-      right: -20px;
-      top: 14%;
+    position: absolute;
+    right: -46px;
+    top: 12%;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #FEE664;
+    border-bottom: 50px solid transparent;
+
     }
   }
 
@@ -92,6 +96,9 @@ export const Box = styled.div`
       color: #694bed;
       text-decoration: line-through;
       font-size: 26px;
+      font-weight: 600;
+      list-style-position: outside;
+      /* display: flex; */
       &::marker {
         color: #ff6765;
       }
@@ -156,6 +163,7 @@ export const OfflineTeaching = styled.div`
     align-items: center;
     justify-content: center;
     margin-inline-start: 50px;
+    /* background: url("./assets/images/offline-program.png"); */
     /* padding: 47px; */
 
     @media (max-width: 1000px) {
@@ -170,9 +178,16 @@ export const OfflineTeaching = styled.div`
 
     & li {
       text-decoration: none;
+      list-style-position: outside;
       &::marker {
         color: #21d373;
       }
     }
   }
 `;
+
+export const OfflineImg = styled.img`
+position: absolute;
+top: -43px;
+left: 16px;
+`

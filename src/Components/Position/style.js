@@ -15,11 +15,12 @@ export const CardContainer = styled.div`
   @media (max-width: 1200px) {
     max-width: 100%;
     width: 90%;
-    box-shadow: none;
+  
   }
 
   @media (max-width: 600px) {
     width: 100%;
+    box-shadow: none;
   }
 
   & p{

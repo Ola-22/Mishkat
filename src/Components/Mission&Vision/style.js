@@ -53,10 +53,11 @@ export const Box = styled.div`
         max-width: 451px;
         text-transform: uppercase;
         margin-top: 26px;
-        font-weight: normal;
+        font-weight: 500;
         line-height: 1.5;
         @media (max-width: 900px) {
                font-size: 14px;
+               text-align: center;
             }
 
             @media (max-width: 1100px) {
@@ -78,7 +79,7 @@ export const Box = styled.div`
         height: 80%;
         display: flex;
         flex-direction: column;
-        width: 95%;
+        width: 70%;
 
         @media (max-width: 700px) {
             align-items: center;

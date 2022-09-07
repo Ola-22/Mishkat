@@ -18,9 +18,10 @@ function TeachingFormat() {
             <S.OfflineTeaching>
             <h4>offline</h4>
                 <div className='two'>
+                    <S.OfflineImg alt="offline program" src="./assets/images/offline-program.png" />
                     <ul>
-                        <li>Length: 45 lessons.</li>
-                        <li>Studying takes place on weekdays after school or on the weekends.</li>
+                        <li><span>Length: 45 lessons.</span></li>
+                        <li><span>Studying takes place on weekdays after school or on the weekends.</span></li>
                         <li>A class last 2 hours with a break in the middle.</li>
                     </ul>
                 </div>

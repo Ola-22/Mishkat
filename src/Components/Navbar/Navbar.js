@@ -33,7 +33,9 @@ function Navbar({ open }) {
       <Link to="/register" className="register-btn">register now</Link>
       </li>
 </div>
-
+<select>
+        <option>En</option>
+      </select>
     </S.Ul>
   );
 }

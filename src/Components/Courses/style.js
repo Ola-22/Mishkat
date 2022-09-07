@@ -10,7 +10,7 @@ export const CoursesContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 64px;
+    width: 67%;
 
     & button {
       min-width: 107px;
@@ -26,15 +26,15 @@ export const CoursesContainer = styled.div`
       padding-right: 20px;
       cursor: pointer;
       transition: 1s ease-in-out;
+      font-weight: 500;
       &.active {
         background: linear-gradient(to left, #fa6400, #ffa214);
         color: #ffffff;
-        box-shadow: 0 6px 15px rgba(0, 145, 255, 0.16);
+        box-shadow: 0 6px 15px rgba(250, 100, 0, .50);
       }
 
       @media (max-width: 700px) {
         min-width: auto;
-        max-width: 130px;
         font-size: 12px;
         height: 30px;
         
@@ -53,7 +53,7 @@ export const CoursesContainer = styled.div`
 
     & h1 {
       font-size: 40px;
-      font-weight: normal;
+      font-weight: bold;
       color: #3d4354;
     }
 
@@ -84,7 +84,7 @@ export const ItemContainer = styled.div`
       width: 100%;
       max-width: 100%;
     }
-    @media (min-width: 500px) and (max-width: 760px) {
+    @media (min-width: 501px) and (max-width: 760px) {
       max-width: 200px;
     }
   }
@@ -113,7 +113,7 @@ export const ItemContainer = styled.div`
 
   & h6 {
     color: #6e7187;
-    font-weight: normal;
+    font-weight: 500;
     margin-bottom: 17px;
   }
   & button {
@@ -170,3 +170,25 @@ export const Btn = styled.button`
     font-size: 14px;
   }
 `;
+
+
+export const BtnContainer = styled.div`
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    margin-bottom: 64px;
+
+    & .prev-next{
+      display: flex;
+      align-items: center;
+
+      & img{
+        cursor: pointer;
+             &:last-of-type{
+        margin-inline-start: 9.4px;
+      } 
+      }
+
+    }
+    `

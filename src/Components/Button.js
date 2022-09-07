@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-function Button({ button, filter, dataSlide, setMenuItem }) {
-  const [active, setActive] = useState(0);
+function Button({ button, filter, dataSlide, setMenuItem , active, setActive}) {
+  // const [active, setActive] = useState(0);
 
   function someFunct(index) {
     setActive(index);
@@ -12,6 +12,7 @@ function Button({ button, filter, dataSlide, setMenuItem }) {
       setMenuItem(dataSlide);
     }
   });
+  
   return (
     <div className="buttons">
       {button?.map((cat, i) => {

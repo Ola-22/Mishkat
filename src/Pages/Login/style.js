@@ -4,6 +4,9 @@ export const LoginFooter = styled.div`
 width: 100%;
 /* height: 100vh; */
 background: url("./assets/images/Login.png");
+background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,12 +83,13 @@ export const LoginBox = styled.div`
         height: 50px;
         border: 1px solid #DEDEDE;
         border-radius: 40px;
-
+        outline: none;
+        padding-inline-start: 26px;
         &::placeholder{
-            padding-inline-start: 26px;
             text-transform: capitalize;
             font-size: 15px;
-            color: #818181;
+            color: rgba(129, 129, 129, .94);
+            font-weight: 500;
 
             @media (max-width: 900px) {
        font-size: 12px;

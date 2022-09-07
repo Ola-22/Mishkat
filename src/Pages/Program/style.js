@@ -6,7 +6,7 @@ export const ProgramContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
+  /* padding-top: 25px; */
 
   & .banner {
     width: 100%;
@@ -18,6 +18,7 @@ export const ProgramContainer = styled.div`
     align-items: center;
     padding-inline-end: 13.2%;
     padding-top: 13.4%;
+    margin-top: 135.5px;
     & img {
       max-width: 100%;
     }
@@ -55,9 +56,25 @@ export const ProgramContainer = styled.div`
 
 export const HeaderProgram = styled.div`
   display: flex;
-  width: 82%;
+  width: 73%;
   justify-content: space-between;
   padding-bottom: 28.7px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+    top: 0;
+    padding-bottom: 28.7px;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 25px;
+    z-index: 33;
+
+    & .header{
+      display: flex;
+      width: 73%;
+      justify-content: space-between;
+      align-items: center;
+    }
   & .register-btn {
     @media (max-width: 980px) {
       display: flex;
@@ -113,7 +130,7 @@ export const ProgramDetails = styled.div`
 
   & .paragraph {
     position: relative;
-    width: 92%;
+    width: 86%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,9 +139,8 @@ export const ProgramDetails = styled.div`
 
     & .back-p {
       position: absolute;
-      width: 92%;
+      width: 100%;
       top: 0;
-      left: 20px;
       opacity: 0.2;
     }
   }
@@ -184,6 +200,8 @@ export const LearnContainer = styled.div`
       display: flex;
       align-items: center;
       position: relative;
+      font-size: 26px;
+    color: #3D4354;
       &::before {
         clip-path: polygon(50% 0, 100% 50%, 52% 100%, 29% 80%, 0 53%, 25% 26%);
         width: 111px;

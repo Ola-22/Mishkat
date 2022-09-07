@@ -24,7 +24,7 @@ padding-bottom: 92px;
 }
 
 & .accordion-wrapper{
-    width: 80%;
+    width: 73%;
 }
 
 `

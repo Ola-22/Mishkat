@@ -10,6 +10,10 @@ export const Main = styled.div`
 export const TitleContainer = styled.div`
   text-align: center;
   padding-top: 114px;
+  & p{
+    color: #6E7187;
+    font-size: 16px;
+  }
 `;
 
 export const AmbassadorsContainer = styled.div`
@@ -37,7 +41,7 @@ export const Card = styled.div`
       display: inline-block;
       width: 100%;
       height: 593px;
-      margin-top: 8px;
+      margin-top: 28px;
       clip-path: circle(40%);
       z-index: 2;
       @media (max-width: 700px) {
@@ -51,6 +55,12 @@ export const Card = styled.div`
         width: 80%;
     height: 515px;
     margin-top: -64px;
+      }
+
+      @media (max-width: 1100px) and (min-width: 1000px) {
+        width: 70%;
+    height: 552px;
+    margin-top: -85px;
       }
     }
 
@@ -115,7 +125,7 @@ export const ContainerCard = styled.div`
           height: 200px;
           border: 20px solid #657fff;
         }
-        @media (max-width: 1000px) and (min-width: 699px) {
+        @media (max-width: 1100px) and (min-width: 699px) {
         width: 300px;
     height: 300px;
       }
@@ -137,7 +147,7 @@ export const ContainerCard = styled.div`
           border-width: 20px;
         }
 
-        @media (max-width: 1000px) and (min-width: 699px) {
+        @media (max-width: 1100px) and (min-width: 699px) {
         width: 300px;
     height: 300px;
       }

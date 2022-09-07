@@ -23,6 +23,7 @@ export const AccordianContainer = styled.div`
     & h3 {
       width: 80%;
       font-size: 16px;
+      font-weight: 800;
       @media (max-width: 700px) {
         font-size: 14px;
       }
@@ -31,6 +32,22 @@ export const AccordianContainer = styled.div`
   & .activeShow {
     border-bottom: 1px solid #dfdfdf;
     border-radius: 10px 10px 0 0;
+  }
+
+  & .svg-icons{
+   
+      /* content: "";
+      position: absolute; */
+      background: #694BED;
+      border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & svg{
+      fill: #fff;
+    }
   }
 `;
 
@@ -58,5 +75,5 @@ export const AccordianAnswer = styled.div`
 export const AccordionMain= styled.div`
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 94%;
 `
