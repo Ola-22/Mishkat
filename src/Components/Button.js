@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 
 function Button({ button, filter, dataSlide, setMenuItem , active, setActive}) {
-  // const [active, setActive] = useState(0);
 
   function someFunct(index) {
     setActive(index);
