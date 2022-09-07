@@ -28,8 +28,15 @@ export const AboutContainer = styled.div`
 
     @media (max-width: 1200px) {
       width: 100px;
-      right: -84px;
-      top: 66%;
+    object-fit: cover;
+    right: -95px;
+    height: 206px;
+    top: 51%;
+    }
+    @media (min-width: 1199px) and (max-width: 1335px) {
+      width: 230px;
+    height: 270px;
+    right: -180px;
     }
   }
 `;
@@ -56,17 +63,16 @@ export const CardContainer = styled.div`
       justify-content: center;
       align-items: center;
       position: relative;
-      width: 110.8px;
+      /* width: 110.8px; */
       margin-bottom: 62px;
-      &::after {
-        content: "";
-        position: absolute;
-        width: 110.8px;
-        height: 110.8px;
-        background: #00bded;
-        border-radius: 50%;
-
-        @media (max-width: 1200px) {
+      content: "";
+    /* position: absolute; */
+    width: 110.8px;
+    height: 110.8px;
+    background: #00bded;
+    border-radius: 50%;
+    
+    @media (max-width: 1200px) {
          width: 60px;
         height: 60px; 
         }
@@ -75,15 +81,28 @@ export const CardContainer = styled.div`
          width: 35px;
         height: 35px; 
         }
-      }
+      /* &::after {
+        content: "";
+        position: absolute;
+        width: 110.8px;
+        height: 110.8px;
+        background: #00bded;
+        border-radius: 50%;
+
+      } */
       & h2 {
         z-index: 2;
         color: #ffffff;
         font-size: 42px;
         @media (max-width: 750px) {
         font-size: 20px;
+
         }
       }
+
+      @media (max-width: 650px) {
+    margin-bottom: 2%;
+  }
     }
     & h3 {
       font-size: 32px;
@@ -92,6 +111,11 @@ export const CardContainer = styled.div`
       margin-bottom: 35px;
       @media (max-width: 750px) {
         font-size: 20px;
+        margin-bottom: 2px;
+        }
+
+        @media (max-width: 650px) {
+          margin-inline-start: 8%;
         }
       & span {
         color: #00bded;
@@ -141,3 +165,14 @@ export const UlPaginate = styled.ul`
     }
   }
 `;
+
+export const TitleContainer = styled.div`
+
+@media (max-width: 650px) {
+        display: flex;
+margin-top: 8%;
+width: 100%;  
+        }
+
+
+`

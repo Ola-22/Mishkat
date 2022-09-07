@@ -33,12 +33,8 @@ function Accordion({ homeData, language }) {
             >
               <h3>{item.question}</h3>
 
-              <div>
-                {/* <img
-                  src="./images/Accordion.png"
-                  alt="Accordion"
-                
-                /> */}
+              <div className="svg-icons">
+            
                 {show !== index ? <BiPlus /> : <BiMinus />}
               </div>
             </div>

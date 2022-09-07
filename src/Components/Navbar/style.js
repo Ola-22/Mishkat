@@ -6,11 +6,11 @@ export const NavMain = styled.div`
   justify-content: center;
   padding-bottom: 28.7px;
   background-color: #fff;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 33;
-    padding-top: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 33;
+  padding-top: 25px;
   & .nav-container {
     display: flex;
     align-items: center;
@@ -39,22 +39,23 @@ export const NavMain = styled.div`
     }
   }
 
-  & a{
+  & a {
     transition: 1s all ease-in-out;
-    &:hover{
-        color: #fe9610;
+    &:hover {
+      color: #fe9610;
     }
 
     @media (min-width: 980px) and (max-width: 1100px) {
       font-size: 10px !important;
     }
+ 
   }
 
-  & .top-container{
+  & .top-container {
     display: flex;
-    width: 85%; 
+    width: 85%;
     align-items: center;
-  justify-content: space-between;
+    justify-content: space-between;
   }
 `;
 
@@ -79,7 +80,7 @@ export const RightNav = styled.div`
       display: none;
     }
 
-    &:hover{
+    &:hover {
       border: 1px solid #ffa214;
       color: #ffa214;
       background: #ffffff;
@@ -90,6 +91,9 @@ export const RightNav = styled.div`
   & select {
     border: none;
     outline: none;
+    @media (max-width: 980px) {
+      display: none;
+    }
   }
 
   & .login-btn {
@@ -111,8 +115,8 @@ export const RightNav = styled.div`
     @media (min-width: 980px) and (max-width: 1100px) {
       font-size: 10px;
     }
-    &:hover{
-        color: #fe9610;
+    &:hover {
+      color: #fe9610;
     }
   }
 `;
@@ -123,6 +127,7 @@ export const Ul = styled.ul`
   justify-content: space-between;
 
   @media (max-width: 980px) {
+    cursor: pointer;
     flex-flow: column nowrap;
     background: linear-gradient(#008efa, #14c7ff);
     position: fixed;
@@ -140,6 +145,11 @@ export const Ul = styled.ul`
     width: 100%;
     padding-bottom: 20px;
   }
+  & li > a, select {
+    @media (max-width: 980px) {
+      color: #ffffff;
+    }
+  }
 
   & .media-btn {
     display: none;
@@ -154,13 +164,25 @@ export const Ul = styled.ul`
     color: #3d4354;
     font-size: 12px;
     text-transform: capitalize;
+  
 
     @media (max-width: 980px) {
       color: #ffffff;
+
+      border: none;
+    background: inherit;
+    outline: none;
     }
 
     @media (min-width: 980px) and (max-width: 1000px) {
       font-size: 10px;
+    }
+  }
+
+  & select{
+    display: none;
+    @media (max-width: 980px) {
+      display: flex;
     }
   }
 `;

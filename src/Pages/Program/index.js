@@ -17,10 +17,13 @@ function Program() {
   return (
     <S.ProgramContainer>
       <S.HeaderProgram>
-        <Link to="/">
+        <div className="header">
+          <Link to="/">
           <img src="./assets/images/logo.png" alt="logo mishkat" />
         </Link>
-        <RightNav />
+        <RightNav />  
+        </div>
+      
       </S.HeaderProgram>
       <div className="banner">
         <img src="./assets/images/children.png" alt="children" />

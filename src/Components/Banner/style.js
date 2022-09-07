@@ -30,6 +30,9 @@ export const BannerContainer = styled.div`
       font-size: 25px;
       margin-bottom: 20px;
     }
+    @media (max-width: 300px) {
+      font-size: 20px;
+    }
 
     @media (min-width: 700px) and (max-width: 950px) {
       margin-top: 28%;
@@ -45,6 +48,10 @@ export const BannerContainer = styled.div`
     font-weight: 500;
     @media (max-width: 700px) {
       font-size: 16px;
+    }
+
+    @media (max-width: 300px) {
+      font-size: 14px;
     }
   }
 
@@ -65,16 +72,23 @@ export const BannerContainer = styled.div`
   }
 
   @media (max-width: 650px) {
-    height: 750px;
+    height: auto;
+    background-size: cover;
+    margin-top: 10%;
+  }
+
+  @media (min-width: 650px) and (max-width: 700px) {
+    height: auto;
+    background-size: cover;
+    padding-top: 25%;
+  }
+
+  @media  (max-width: 1000px) {
+    height: auto;
     background-size: cover;
   }
-
-  @media (min-width: 650px) and (max-width: 1000px) {
-    height: 1000px;
-  }
-
-  @media (min-width: 550px) and (max-width: 650px) {
-    height: 1000px;
+  @media (max-width: 375px) {
+    margin-top: 25%;
   }
 
   
